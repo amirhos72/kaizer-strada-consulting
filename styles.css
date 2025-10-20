@@ -373,10 +373,9 @@ header.scrolled {
 }
 
 .hero-background-svg img {
-    width: auto; /* Let height dictate the width to maintain aspect ratio */
-    height: 100%; /* Make the image fill the container's height */
+    width: auto; 
+    height: 100%; 
     display: block;
-    max-width: clamp(500px, 70vw, 850px); /* Limit the maximum size on wide screens */
 }
 
 .hero .container {
