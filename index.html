@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizer Strada Consulting - Strategic Business Solutions</title>
+    <meta name="description" content="Kaizer Strada Consulting provides strategic business solutions, digital transformation, and operational excellence to help your business thrive.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Kaizer Strada Consulting - Strategic Business Solutions">
+    <meta property="og:description" content="Transform your business with strategic consulting, digital innovation, and operational excellence.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kaizerstrada.com">
+    
+    <!-- Enhancements: Favicon, Meta, and Resource Hints -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#96b983">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Performance: Preload critical images -->
+    <link rel="preload" href="logo.svg" as="image">
+    <link rel="preload" href="hero-background-logo.svg" as="image">
+    <link rel="preload" href="header-abstract-background.svg" as="image">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Abstract Background -->
+    <div class="header-abstract" aria-hidden="true">
+        <object type="image/svg+xml" data="header-abstract-background.svg"></object>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="#top" class="logo" aria-label="Kaizer Strada Consulting Home">
+                    <img src="logo.svg" alt="Kaizer Strada Consulting Logo">
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-links desktop-nav" role="menubar">
+                    <li role="none"><a href="#services" role="menuitem" class="nav-link" data-section="services">Services</a></li>
+                    <li role="none"><a href="#about" role="menuitem" class="nav-link" data-section="about">About</a></li>
+                    <li role="none"><a href="#metrics" role="menuitem" class="nav-link" data-section="metrics">Impact</a></li>
+                    <li role="none"><a href="#contact" role="menuitem" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="mobile-menu" id="mobileMenu" role="menu" aria-hidden="true">
+                <a href="#services" role="menuitem" class="mobile-nav-link" data-section="services">Services</a>
+                <a href="#about" role="menuitem" class="mobile-nav-link" data-section="about">About</a>
+                <a href="#metrics" role="menuitem" class="mobile-nav-link" data-section="metrics">Impact</a>
+                <a href="#contact" role="menuitem" class="mobile-nav-link" data-section="contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="top" class="hero" role="banner">
+        <div class="hero-background-svg" aria-hidden="true">
+            <img src="hero-background-logo.svg" alt="">
+        </div>
+        <div class="container">
+            <h1 class="hero-title">
+                <span class="title-line">
+                    <span class="title-word">Strategic</span>
+                    <span class="title-word text-accent">Tech</span>
+                    <span class="title-word">and</span>
+                    <span class="title-word text-accent">Design</span>
+                </span>
+                <span class="title-line">
+                    <span class="title-word">Transformation</span>
+                </span>
+            </h1>
+            <p class="hero-subtitle">Elevating projects with creative design and robust development tailored to your vision</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" role="button">Start Your Journey</a>
+                <a href="#services" class="btn btn-secondary" role="button">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" aria-labelledby="services-heading">
+        <div class="container">
+            <h2 id="services-heading" class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">Digital Innovation</h3>
+                    <p class="service-description">Bring your ideas to life with modern tech stacks, intuitive interfaces, and seamless integrations.</p>
+                </article>
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">Blockchain Solutions</h3>
+                    <p class="service-description">Expert guidance on decentralized systems, smart contracts, and secure digital ecosystems.</p>
+                </article>
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">Crafting user-focused interfaces that are beautiful, intuitive, and optimized for engagement.</p>
+                </article>
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">Delivering visually compelling assets, from branding to motion graphics, that tell your story.</p>
+                </article>
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">Custom Development</h3>
+                    <p class="service-description">Building scalable applications and tools with clean code and forward-thinking architecture.</p>
+                </article>
+                <article class="service-card" tabindex="0" role="article">
+                    <h3 class="service-title">Project Optimization</h3>
+                    <p class="service-description">Streamlining workflows and enhancing performance to make your tech and design initiatives thrive.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" aria-labelledby="about-heading">
+        <div class="dots-background" aria-hidden="true"></div>
+        <div class="container">
+            <h2 id="about-heading" class="section-title">Excellence in Every Engagement</h2>
+            <div class="about-content">
+                <p>At Kaizer Strada, we’re a boutique development studio blending tech and design expertise to create standout solutions. We dive into your project’s needs, delivering custom graphics, interfaces, and builds that push boundaries and deliver real impact.</p>
+                <p>With years of hands-on work in blockchain and beyond, we’ve partnered with teams to craft seamless user experiences, optimize digital tools, and drive innovative growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section id="metrics" class="metrics" aria-labelledby="metrics-heading">
+        <div class="container">
+            <h2 id="metrics-heading" class="section-title">Our Impact</h2>
+            <div class="metrics-grid">
+                <div class="metric" role="group" aria-labelledby="metric-clients">
+                    <span class="metric-number" data-target="38">0</span>
+                    <span id="metric-clients" class="metric-label">Clients Served</span>
+                </div>
+                <div class="metric" role="group" aria-labelledby="metric-projects">
+                    <span class="metric-number" data-target="285">0</span>
+                    <span id="metric-projects" class="metric-label">Projects Completed</span>
+                </div>
+                <div class="metric" role="group" aria-labelledby="metric-satisfaction">
+                    <span class="metric-number" data-target="98">0</span>
+                    <span id="metric-satisfaction" class="metric-label">% Satisfaction Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Marquee -->
+    <section class="testimonials" aria-label="Client testimonials">
+        <div class="marquee" role="marquee" aria-live="off">
+            <div class="marquee-content">
+                <span class="marquee-item">★ "Launched a DeFi platform that secured over $20 million in TVL within the first three months." - FinTech Innovator</span>
+                <span class="marquee-item">★ "Engineered a supply chain solution on blockchain, increasing transparency and reducing fraud by 40%." - Global Logistics Firm</span>
+                <span class="marquee-item">★ "Redesigned our SaaS dashboard, which boosted user engagement by 60% and simplified complex data visualization." - Data Analytics Corp</span>
+                <span class="marquee-item">★ "Developed a comprehensive brand identity that elevated our market presence and contributed to a 25% increase in lead generation." - Emerging Tech Company</span>
+                <span class="marquee-item">★ "Built a scalable e-commerce platform that handles over 10,000 transactions per second during peak loads." - Major Online Retailer</span>
+                <span class="marquee-item">★ "Streamlined their development workflow, cutting project delivery times by 30% and improving team collaboration." - Enterprise Software Group</span>
+                <span class="marquee-item">★ "Launched a DeFi platform that secured over $20 million in TVL within the first three months." - FinTech Innovator</span>
+                <span class="marquee-item">★ "Engineered a supply chain solution on blockchain, increasing transparency and reducing fraud by 40%." - Global Logistics Firm</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+        <div class="container">
+            <h2 id="contact-heading" class="section-title">Let's <span class="text-accent">Connect</span></h2>
+            <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name"
+                        placeholder="Your Name"
+                        required 
+                        aria-required="true"
+                        aria-describedby="name-error"
+                    >
+                    <span class="error-message" id="name-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Your Email" 
+                        required 
+                        aria-required="true"
+                        aria-describedby="email-error"
+                    >
+                    <span class="error-message" id="email-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        placeholder="Your Message" 
+                        rows="5" 
+                        required 
+                        aria-required="true"
+                        aria-describedby="message-error"
+                    ></textarea>
+                    <span class="error-message" id="message-error" role="alert" aria-live="polite"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit" aria-label="Send message">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loading" aria-hidden="true">
+                        <svg class="spinner" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Kaizer Strada Consulting.</p>
+        </div>
+    </footer>
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top" title="Go to top" aria-label="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
